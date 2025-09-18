@@ -6,3 +6,12 @@ p.color_font_size {
     font-size: 100px;
     background-color:aqua;
 }
+p.padding1 {
+    border: 10px solid red;
+    padding: 30px;
+}
+
+p.margin1 {
+    border: 10px solid red;
+    margin: 30px;
+}
