@@ -1,2 +1,8 @@
 h1.app {color: green;}
 p.app2 {background-color: aqua;}
+p.color_font_size {
+    color:blue;
+    font-family: serif;
+    font-size: 100px;
+    background-color:aqua;
+}
