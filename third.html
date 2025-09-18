@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="third.css"></link>
 </head>
 <body>
     <!--HTML text formatting-->
@@ -60,5 +61,19 @@
     <p style="background-color: hsl(9, 100%, 64%);">this is color type 3</p>
     <p style="background-color: rgba(255, 99, 71, 0.5);">this is color type 4</p>
     <p style="background-color: hsla(9, 100%, 64%, 0.5);;">this is color type 5</p>
+
+    <!--HTML CSS-->
+    <!--inline CSS-->
+    <p style="color: red">Red paragraph with inline CSS</p>
+    <!--internal CSS-->
+    <style>
+        p.in1 {color: #ff6347;}
+        h1.in2 {color: antiquewhite;}
+    </style>
+    <h1 class="in2">This is internal CSS heading</h1>
+    <p class="in1">This is internal CSS paragraph</p>
+    <!--external CSS-->
+    <h1 class="app">This is external CSS green heading</h1>
+    <p class="app2">This is external CSS paragraph</p>
 </body>
 </html>
